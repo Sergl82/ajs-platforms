@@ -1,10 +1,9 @@
 {
-  "name": "ajs-platforms",
+  "name": "@sergl82/ajs-platform",
   "version": "1.0.0",
-  "description": "",
   "main": "dist/index.js",
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com"
   },
   "scripts": {
     "build": "webpack --mode production"
@@ -26,5 +25,7 @@
     "babel-loader": "^8.2.3",
     "webpack": "^5.66.0",
     "webpack-cli": "^4.9.1"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
